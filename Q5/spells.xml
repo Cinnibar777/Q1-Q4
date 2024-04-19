@@ -206,6 +206,14 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
+	
+	<!-- Custom -->
+	<instant group="attack" spellid="300" name="Q5" words="Q5" level="1" mana="1" direction="1" cooldown="4000" groupcooldown="2000" needlearn="0" script="attack/Q5.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Knight" />
+		<vocation name="Paladin" />
+	</instant>
 
 	<!-- Healing Spells -->
 	<instant group="healing" spellid="175" name="Bruise Bane" words="exura infir ico" level="1" mana="10" aggressive="0" selftarget="1" cooldown="1000" groupcooldown="1000" needlearn="0" script="healing/bruise_bane.lua">
